@@ -1,0 +1,61 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+}
+/* styling the header*/
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+/* setting the background color of the navigation*/
+nav {
+    background-color: #333;
+}
+/* styling the behaviour of the nav- ul list.*/
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+/*styling the spacing of list items */
+nav ul li {
+    margin: 0 1rem;
+}
+/* setting the color of the anchor tag in nav bar */
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+/*styling the section  part of  the body*/
+section {
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+}
+/* some more styling to the project section */
+.project {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/* adding Media query for responsiveness */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
